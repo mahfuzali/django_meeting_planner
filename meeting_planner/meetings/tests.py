@@ -1,3 +1,4 @@
-from django.test import TestCase
+from datetime import datetime
 
-# Create your tests here.
+from django.test import TestCase
+from meetings.models import Meeting
